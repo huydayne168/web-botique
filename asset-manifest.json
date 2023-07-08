@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/web-botique/static/css/main.a88b085f.css",
+    "main.js": "/web-botique/static/js/main.c1422edc.js",
+    "static/media/product_2.png": "/web-botique/static/media/product_2.1bc52f8922d488cead68.png",
+    "static/media/product_3.png": "/web-botique/static/media/product_3.48eda5293a6f605e73f7.png",
+    "static/media/product_4.png": "/web-botique/static/media/product_4.6d83c6007d5109b357a8.png",
+    "static/media/product_1.png": "/web-botique/static/media/product_1.b24c110a233df54143c8.png",
+    "static/media/product_5.png": "/web-botique/static/media/product_5.b963def7555b7544d220.png",
+    "static/media/banner1.jpg": "/web-botique/static/media/banner1.4a22881c941f7b645fa8.jpg",
+    "static/media/facebook-messenger.svg": "/web-botique/static/media/facebook-messenger.73b62e66d58d12df71340517187cd5f8.svg",
+    "index.html": "/web-botique/index.html",
+    "main.a88b085f.css.map": "/web-botique/static/css/main.a88b085f.css.map",
+    "main.c1422edc.js.map": "/web-botique/static/js/main.c1422edc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a88b085f.css",
+    "static/js/main.c1422edc.js"
+  ]
+}
