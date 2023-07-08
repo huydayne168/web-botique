@@ -1,0 +1,47 @@
+.order-box {
+    padding: 32px;
+    background-color: #f4f5f9;
+    font-style: italic;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.order-list li {
+    padding: 12px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid #333;
+}
+
+.name {
+    font-size: 18px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price {
+    font-size: 16px;
+    color: #777;
+    justify-self: flex-end;
+}
+
+.total {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-tag {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.total-price {
+    font-size: 22px;
+}

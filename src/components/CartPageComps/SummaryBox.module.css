@@ -1,0 +1,54 @@
+.summary-box {
+    flex: 1 0 30%;
+    box-sizing: border-box;
+    padding: 32px;
+    background-color: #f4f5f9;
+    font-style: italic;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tag {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.subtotal-price {
+    font-size: 16px;
+    color: #777;
+}
+
+.total-price {
+    font-size: 20px;
+}
+
+.coupon {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coupon > * {
+    padding: 12px 8px;
+}
+
+.coupon button {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    font-size: 16px;
+    font-style: italic;
+    border: none;
+    color: #888;
+    background-color: #000;
+    cursor: pointer;
+}

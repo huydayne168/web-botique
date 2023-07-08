@@ -1,0 +1,20 @@
+.main-content {
+    margin-top: 40px;
+    margin-bottom: 120px;
+    padding: 0 200px;
+}
+
+.main-content h1 {
+    font-weight: 400;
+    font-size: 36px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 6.4fr 3.6fr;
+    align-items: flex-start;
+    column-gap: 24px;
+    row-gap: 4px;
+}

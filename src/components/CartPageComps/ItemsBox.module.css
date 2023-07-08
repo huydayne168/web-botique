@@ -1,0 +1,47 @@
+.items-box {
+    font-style: italic;
+}
+
+.items-box svg {
+    cursor: pointer;
+}
+
+.row {
+    margin-bottom: 24px;
+    display: grid;
+    grid-template-columns: 1fr 2fr repeat(4, 1fr);
+    column-gap: 12px;
+    text-align: center;
+    align-items: center;
+}
+
+.row img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.tag-name {
+    padding: 12px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #f4f5f9;
+}
+
+.name {
+    font-size: 18px;
+}
+
+.price {
+    color: #777;
+}
+
+.quantity {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity svg {
+    margin-top: 2.8px;
+}

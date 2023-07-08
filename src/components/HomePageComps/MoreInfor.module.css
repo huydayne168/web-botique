@@ -1,0 +1,76 @@
+/* ============= Services CSS ============= */
+.services {
+    margin-bottom: 80px;
+    padding: 80px 200px;
+    background-color: #f8f9fa;
+}
+
+.services ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.services h3 {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.services em {
+    color: #666;
+}
+
+/* ============= Subscribe CSS ============= */
+
+.subscribe {
+    margin-bottom: 80px;
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading p,
+.heading h2 {
+    margin: 0;
+    font-style: italic;
+}
+
+.heading p {
+    color: #888;
+}
+
+.heading h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+.subscribe form {
+    height: 60px;
+    display: flex;
+}
+
+.subscribe form * {
+    height: 100%;
+}
+
+.subscribe form input {
+    box-sizing: border-box;
+    width: 360px;
+    padding: 12px;
+}
+
+.subscribe form button {
+    padding: 4px 8px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}

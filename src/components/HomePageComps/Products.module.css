@@ -1,0 +1,129 @@
+.products {
+    padding: 0 200px;
+    margin-bottom: 100px;
+}
+
+.heading p,
+.heading h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.heading p {
+    color: #888;
+}
+
+.heading h2 {
+    font-weight: 400;
+}
+
+.heading {
+    margin-bottom: 40px;
+}
+
+.products-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    text-align: center;
+    font-style: italic;
+}
+
+.products-items {
+    border-radius: 4px;
+    transition: all 300ms ease;
+}
+
+.products-items:hover {
+    transform: scale(1.02);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+.products-items img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.products-items__desc {
+    padding: 6px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.name {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.price {
+    color: #666;
+}
+
+/* ====== POPUP CSS ====== */
+
+.backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background-color: #000000a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    position: relative;
+    width: 68%;
+    height: 480px;
+    padding: 40px 60px;
+    background-color: #fff;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.popup-img {
+    margin-right: 82px;
+}
+
+.popup-img img {
+    /* width: 100%; */
+    height: 100%;
+    object-fit: cover;
+}
+
+.popup-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-desc p {
+    text-align: start;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.popup-desc button {
+    align-self: baseline;
+    margin-top: 12px;
+    padding: 12px 28px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.popup-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    cursor: pointer;
+}

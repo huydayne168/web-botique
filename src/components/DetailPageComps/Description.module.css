@@ -1,0 +1,25 @@
+.description {
+    margin-top: 100px;
+    font-style: italic;
+}
+
+.header {
+    display: inline-block;
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 16;
+    background-color: #000;
+    color: #fff;
+}
+
+.description h2 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.features h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 8px;
+}

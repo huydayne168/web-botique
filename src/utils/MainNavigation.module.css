@@ -1,0 +1,36 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+.brand {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header .nav-items {
+    display: inline-block;
+    margin: 12px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.header .nav-items:hover {
+    color: #e0b85a;
+    cursor: pointer;
+}
+
+.header .nav-items svg {
+    margin: 0 4px;
+}
+
+.brand {
+    font-size: 32px;
+    font-style: italic;
+    text-transform: uppercase;
+    cursor: pointer;
+}

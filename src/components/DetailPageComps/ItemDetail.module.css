@@ -1,0 +1,70 @@
+.item-detail {
+    font-style: italic;
+}
+
+.name {
+    font-weight: 400;
+}
+
+.price {
+    font-size: 22px;
+}
+
+.category,
+.price,
+.desc-para {
+    color: #666;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.category span {
+    display: inline-block;
+    margin-right: 4px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.actions form {
+    position: relative;
+    display: flex;
+}
+
+.actions form input {
+    width: 280px;
+    padding: 12px 8px;
+    box-sizing: border-box;
+}
+
+.actions form input::placeholder {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.actions form button {
+    padding: 8px 24px;
+    background-color: #000;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.amount {
+    position: absolute;
+    top: 46%;
+    transform: translateY(-50%);
+    left: 200px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+}
+
+.amount svg {
+    display: inline-block;
+    margin-top: 4px;
+    cursor: pointer;
+}

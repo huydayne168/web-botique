@@ -1,0 +1,22 @@
+.item-images {
+    display: flex;
+    align-items: center;
+    flex: 1 0 50%;
+}
+
+.sm-images {
+    margin-right: 12px;
+    width: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.main-image img,
+.sm-images img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-image {
+    width: 400px;
+}
