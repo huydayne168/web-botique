@@ -36,7 +36,7 @@ const SignInForm = () => {
     function checkPassword(value) {
         const curEmail = userArr?.filter((user) => user.email === emailValue);
         console.log(value);
-        if (value === curEmail[0]?.password) {
+        if (curEmail && value === curEmail[0]?.password) {
             return true;
         } else return false;
     }
