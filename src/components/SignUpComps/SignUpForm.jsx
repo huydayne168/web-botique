@@ -13,12 +13,21 @@ const SignUpForm = () => {
 
     // function to check email input:
     function checkEmail(value) {
-        const isDuplicateEmail = JSON.parse(localStorage.getItem("users")).some(
-            (user) => user.email === value.trim()
-        );
-        if (value.trim() !== "" && value.includes("@") && !isDuplicateEmail)
-            return true;
-        else return false;
+        const users = JSON.parse(localStorage.getItem("users"));
+        if (users) {
+            const isDuplicateEmail = users.some(
+                (user) => user.email === value.trim()
+            );
+            if (
+                value.trim() !== "" &&
+                value.includes("@") &&
+                !isDuplicateEmail
+            ) {
+                return true;
+            } else {
+                return false;
+            }
+        } else return true;
     }
 
     // function to check password input:
